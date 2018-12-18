@@ -16,7 +16,7 @@ if [ $SSID == 'devartisUFO' ]
 then
 	STATUS='At%20devartis'
 	EMOJI='devartis'
-elif [ $SSID == 'Keepcon' ]
+elif [[ $SSID == *Keepcon* ]]
 then
 	STATUS='At%20Keepcon'
 	EMOJI='keepcon'
